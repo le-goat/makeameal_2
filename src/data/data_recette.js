@@ -28,6 +28,7 @@ export function getRecettes() {
 }
 
 export function getName(id) {
+    //return recettes.filter(item => item.id_recette.includes(id));
     return recettes.find(m => m.id_recette === id);
 }
 

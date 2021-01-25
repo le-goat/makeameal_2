@@ -1,0 +1,58 @@
+body {
+    background-color: palegreen;
+}
+
+.recette_result {
+    align-content: center;
+    width: 100%;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 5%;
+    background-color: white;
+}
+
+.sub-box {
+    /*border: 2px solid black;*/
+    margin: 2%;
+    /*background-color: #61dafb;*/
+    display: flex;
+}
+
+.sub-box:hover {
+    background-color: white;
+}
+
+.link_recette {
+    text-align: center;
+}
+
+.titre_recette {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+}
+
+.image_recette {
+    align-content: center;
+    /*max-width: 40%;*/
+    height: 200px;
+    /*margin-left: 0;
+    margin-right: 60%;*/
+    z-index: 0;
+    filter: brightness(50%);
+}
+
+.avis {
+    padding: 0 20px 0 20px;
+}
+
+.difficulte {
+    padding: 0 20px 0 20px;
+}
+
+.recette_content {
+    padding: 0 20px 0 20px;
+}
